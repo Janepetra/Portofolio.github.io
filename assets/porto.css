@@ -11,7 +11,6 @@ html,
   scroll-behavior: smooth;
 }
 
-/* Navbar */
 #navbar {
   display: flex;
   justify-content: center;
@@ -51,16 +50,14 @@ html,
 
 #home {
   display: flex;
-  flex-direction: column;
   height: 650px;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, #17ba97, #178270);
+  background-image: linear-gradient(to right, #14bb97, #008181);
 }
 
 .home-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   font-size: 40px;
 }
@@ -77,19 +74,18 @@ html,
 #about {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
   height: 650px;
   padding: 120px 80px;
   margin-bottom: 50px;
   background-color: white;
 }
 
-.about-pic {
+.about-pict {
   display: flex;
   padding: 45px 100px;
 }
 
-.about-pic img {
+.about-pict img {
   width: 250px;
   height: 250px;
 }
@@ -97,7 +93,7 @@ html,
 .about-intro {
   display: flex;
   flex-wrap: wrap;
-  align-self: center;
+  align-items: center;
   flex-direction: column;
   text-align: justify;
   padding: 40px;
@@ -133,7 +129,7 @@ html,
 }
 
 .projects img:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 .project-title {
@@ -142,9 +138,9 @@ html,
   margin-top: 5px;
 }
 
-.contact-section {
+.contact-container {
   padding-top: 120px;
-  background-image: linear-gradient(to right, #17ba97, #178270);
+  background-image: linear-gradient(to right, #14bb97, #008181);
   height: 640px;
 }
 
@@ -186,10 +182,10 @@ html,
   #about {
     padding: 100px 40px;
   }
-  .about-pic {
+  .about-pict {
     padding: 45px 30px;
   }
-  .about-pic img {
+  .about-pict img {
     width: 190px;
     height: 190px;
   }
@@ -218,19 +214,17 @@ html,
     width: 100%;
     font-size: 16px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
   }
   #about {
     padding: 90px 0;
     width: 100%;
   }
-  .about-pic {
+  .about-pict {
     flex-direction: column;
     align-items: center;
     padding: 20px 5px;
   }
-  .about-pic img {
+  .about-pict img {
     width: 150px;
     height: 150px;
   }
@@ -248,7 +242,7 @@ html,
   .project-container a {
     margin-top: 30px;
   }
-  .contact-section {
+  .contact-container {
     height: 670px;
   }
   .contact-text {
